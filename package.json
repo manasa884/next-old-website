@@ -1,0 +1,17 @@
+{
+  "name": "next-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Manasa Tipparam",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
