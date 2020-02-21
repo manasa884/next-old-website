@@ -1,10 +1,11 @@
 import Navbar from '../components/Navbar/Navbar'
+import styles from './style.scss'
 
 export default function Index() {
   return (
-    <div style={{ backgroundColor: 'black'}}>
+    <div className={styles.root}>
       <Navbar/>
-      <h1>Hi</h1>
+      
     </div>
   )
 }

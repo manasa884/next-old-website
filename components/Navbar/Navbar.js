@@ -1,17 +1,21 @@
 import Link from 'next/link'
+import styles from './Navbar.module.scss'
 
 const Navbar = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
+    <div className={styles.root}>
       <Link href="/">
-        <a>Manasa Tipparam</a>
+        <a className={styles.brand}>Manasa Tipparam</a>
       </Link>
-      <div style={{ flexGrow: 1 }}/>
+      <div className={styles.flexGrow}/>
+      <Link href="/photography">
+        <a className={styles.menuItem}>Photography</a>
+      </Link>
+      <Link href="/design">
+        <a className={styles.menuItem}>Design</a>
+      </Link>
       <Link href="/about">
-        <a>About</a>
-      </Link>
-      <Link href="/contact">
-        <a>Contact</a>
+        <a className={styles.menuItem}>About</a>
       </Link>
     </div>
   )

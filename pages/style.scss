@@ -1,0 +1,10 @@
+@import 'styles/colors.scss';
+
+body {
+  margin: 0px;
+}
+
+.root {
+  background-color: $color-primary;
+  height: 100vh;
+}

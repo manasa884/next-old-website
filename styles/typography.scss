@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Proxima Nova Alt';
+  src:  url('/public/fonts/Proxima\ Nova\ Alt\ Thin.otf') format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt';
+  src:  url('/public/fonts/Proxima\ Nova\ Alt\ Light.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt';
+  src:  url('/public/fonts/Proxima\ Nova\ Alt\ Bold.otf') format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Athelas';
+  src:  url('/public/fonts/Athelas-Regular.woff'),
+        url('/public/fonts/Athelas-Bold.woff');
+}
+
+$font-proxima-nova-alt: "Proxima Nova Alt";
+$font-athelas: "Athelas";
