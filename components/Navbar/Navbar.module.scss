@@ -1,5 +1,6 @@
 @import 'styles/colors.scss';
 @import 'styles/typography.scss';
+@import 'styles/layout.scss';
 
 a {
   font-family: $font-proxima-nova-alt;
@@ -10,6 +11,7 @@ a {
   font-size: 1.2rem;
   font-weight: 200;
   opacity: 0.8;
+  white-space: nowrap;
 }
 
 .brand {
@@ -21,7 +23,11 @@ a {
 .root {
   display: flex;
   flex-direction: row;
-  padding: 45px 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - #{2 * $page-side-margin});
+  padding: 45px $page-side-margin;
 }
 
 .flexGrow {

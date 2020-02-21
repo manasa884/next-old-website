@@ -1,10 +1,33 @@
 @import 'styles/colors.scss';
+@import 'styles/typography.scss';
+@import 'styles/layout.scss';
 
 body {
   margin: 0px;
 }
 
+p {
+  color: $color-secondary;
+}
+
 .root {
   background-color: $color-primary;
+  padding: 0px $page-side-margin;
   height: 100vh;
+  overflow: hidden;
+}
+
+.mainTextContainer {
+  position: absolute;
+  top: 32%;
+}
+
+.helloText {
+  font-family: $font-athelas;
+  font-size: 3.5rem;
+}
+
+.helloSubText {
+  font-family: $font-proxima-nova-alt;
+  font-size: 1.8rem;
 }
