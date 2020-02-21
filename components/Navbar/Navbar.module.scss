@@ -23,11 +23,13 @@ a {
 .root {
   display: flex;
   flex-direction: row;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: calc(100vw - #{2 * $page-side-margin});
   padding: 45px $page-side-margin;
+  background-color: $color-primary;
+  z-index: 100;
 }
 
 .flexGrow {

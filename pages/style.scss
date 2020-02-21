@@ -11,10 +11,8 @@ p {
 }
 
 .root {
-  background-color: $color-primary;
   padding: 0px $page-side-margin;
-  height: 100vh;
-  overflow: hidden;
+  background-color: $color-primary;
 }
 
 .mainTextContainer {
