@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+
 @font-face {
   font-family: 'Proxima Nova Alt';
   src:  url('/public/fonts/Proxima\ Nova\ Alt\ Thin.otf') format("opentype");
@@ -27,3 +29,4 @@
 
 $font-proxima-nova-alt: "Proxima Nova Alt";
 $font-athelas: "Athelas";
+$font-montserrat: "Montserrat", sans-serif;
